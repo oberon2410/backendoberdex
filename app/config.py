@@ -9,7 +9,7 @@ with open('bitox.abi.json') as f:
     import json
     ED_CONTRACT_ABI = json.load(f)
 ED_WS_SERVERS = [
-  "ws://backend.bitox.io:8080/socket.io/?EIO=3&transport=websocket",
+  "ws:backendoberdex.herokuapp.com/:8080/socket.io/?EIO=3&transport=websocket",
 ]
 
 POSTGRES_HOST = "postgres"
