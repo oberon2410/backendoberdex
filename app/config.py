@@ -17,4 +17,4 @@ POSTGRES_DB = environ.get("POSTGRES_DB")
 POSTGRES_USER = environ.get("POSTGRES_USER")
 POSTGRES_PASSWORD = environ.get("POSTGRES_PASSWORD")
 
-FRONTEND_CONFIG_FILE="https://www.bitox.io/config/main.json"
+FRONTEND_CONFIG_FILE="trade.oberdex.org"
