@@ -12,9 +12,9 @@ ED_WS_SERVERS = [
   "ws:https://backendoberdex.herokuapp.com//:8080/socket.io/?EIO=3&transport=websocket",
 ]
 
-POSTGRES_HOST = "postgres"
-POSTGRES_DB = environ.get("POSTGRES_DB")
-POSTGRES_USER = environ.get("POSTGRES_USER")
-POSTGRES_PASSWORD = environ.get("POSTGRES_PASSWORD")
+POSTGRES_HOST = "ec2-54-217-235-137.eu-west-1.compute.amazonaws.com"
+POSTGRES_DB = environ.get("d8hb2mdogb873c")
+POSTGRES_USER = environ.get("dkjqpeivffgwiz")
+POSTGRES_PASSWORD = environ.get("2b2f4e065ada893d5f6fffdc0c1dbc20249a146159dbe51a491161ea191cd65b")
 
 FRONTEND_CONFIG_FILE="trade.oberdex.org/config/main.json"
